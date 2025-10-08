@@ -141,7 +141,7 @@ const translations = {
     },
 
     footer: {
-      copyright: "© 2024 LILO Store. All rights reserved. CS2 skins trading done right."
+      copyright: "© 2025 LILO Store. All rights reserved. CS2 skins trading done right."
     }
   },
 
@@ -280,7 +280,7 @@ const translations = {
     },
 
     footer: {
-      copyright: "© 2024 LILO Store. Hak cipta dilindungi. Trading skin CS2 yang bener."
+      copyright: "© 2024 LILO Store. All rights reserved. Sell Your Skins FAST."
     }
   }
 };
