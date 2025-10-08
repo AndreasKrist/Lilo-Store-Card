@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { TrendingUp, ChevronRight, Briefcase, BadgeDollarSign, FileText, Image, DollarSign, CheckCircle, Send, CreditCard, MessageCircle, Search, Package, Sun, Moon, Sword, Target } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import logoImage from './assets/logo.png';
 import akImage from './assets/ak.png';
 import './App.css';
@@ -602,6 +603,7 @@ function App() {
       <footer className="footer">
         <p className="footer-text">{t.footer.copyright}</p>
       </footer>
+      <Analytics />
     </div>
   );
 }
