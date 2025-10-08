@@ -833,6 +833,35 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 400px) {
+  .header-controls {
+    top: 12px;
+    right: 12px;
+    gap: 8px;
+  }
+
+  .theme-toggle,
+  .lang-toggle {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .theme-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .flag-icon {
+    font-size: 16px;
+  }
+
+  .header {
+    padding: 64px 16px 40px;
+  }
+
+  .logo-container {
+    margin-top: 8px;
+  }
+
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 12px;
