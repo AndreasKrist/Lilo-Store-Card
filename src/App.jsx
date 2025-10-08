@@ -341,7 +341,7 @@ function App() {
             {theme === 'dark' ? <Sun className="theme-icon" /> : <Moon className="theme-icon" />}
           </button>
           <button onClick={toggleLang} className="lang-toggle">
-            {lang === 'en' ? 'ID' : 'EN'}
+            {lang === 'en' ? '🇮🇩 ID' : '🇬🇧 EN'}
           </button>
         </div>
 
