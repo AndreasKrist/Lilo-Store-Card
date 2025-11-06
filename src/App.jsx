@@ -62,7 +62,7 @@ function AppContent() {
             {toolsMenuOpen && (
               <div className="tools-dropdown">
                 <Link to="/" className="tools-item" onClick={() => setToolsMenuOpen(false)}>
-                  Homes
+                  Home
                 </Link>
                 <Link to="/armory" className="tools-item" onClick={() => setToolsMenuOpen(false)}>
                   Armory
