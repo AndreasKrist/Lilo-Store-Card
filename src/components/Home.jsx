@@ -547,7 +547,7 @@ function Home({ lang, theme, toggleTheme, toggleLang }) {
               <XTwitterIcon />
               <span className="contact-label">{t.contact.twitter}</span>
             </a>
-            <a href="https://steamcommunity.com/profiles/76561198418933474/" target="_blank" rel="noopener noreferrer" className="contact-card steam-card">
+            <a href="https://steamcommunity.com/id/lastberry/" target="_blank" rel="noopener noreferrer" className="contact-card steam-card">
               <SteamIcon />
               <span className="contact-label">{t.contact.steam}</span>
             </a>
